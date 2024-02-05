@@ -31,12 +31,12 @@ pip install beautifulsoup4 requests
 
 ## Usage
 
-Modify the main function in the converter.py script to adjust the URLs, database name, and other parameters as needed.
+Modify the main function in the html_to_sqlite.py script to adjust the URLs, database name, and other parameters as needed.
 
 Run the script:
 
 ```bash
-python html-sql.py
+python html_to_sqlite.py
 ```
 
 # Academic Journal Abbreviation Database
