@@ -1,1 +1,1 @@
-# sqlite-journal-abbreviations
+# Academic Journal Abbreviation Database
