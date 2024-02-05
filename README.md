@@ -19,7 +19,7 @@ This Python script converts HTML data from multiple URLs containing journal titl
 Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/html-to-sqlite-converter.git
+git clone https://github.com/blipovski/html-to-sqlite-converter.git
 ```
 
 Install the required Python packages:
@@ -35,7 +35,7 @@ Modify the main function in the converter.py script to adjust the URLs, database
 Run the script:
 
 ```bash
-python converter.py
+python html-sql.py
 ```
 
 ## License
