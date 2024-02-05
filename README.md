@@ -1,12 +1,13 @@
 # Academic Journal Abbreviation Database
 
-This Python script converts HTML data from multiple URLs containing journal titles and their respective abbreviations into an SQLite database.
+This Python script converts HTML data from multiple URLs containing journal titles and their respective abbreviations into an SQLite database. The script fetches data from specified URLs, processes the HTML content, and stores the extracted journal titles and abbreviations in an SQLite database, facilitating easy access and management of journal information.
 
 ## Features
 
-- Fetches journal titles and abbreviations from specified URLs
-- Cleans and processes HTML data
-- Stores data in an SQLite database
+- **Data Extraction:** The script utilizes BeautifulSoup to parse HTML content, extracting journal titles and their corresponding abbreviations from specified URLs.
+- **Data Cleaning:** It cleans and processes the extracted data, ensuring uniformity and consistency in the stored information.
+- **SQLite Integration:** The script seamlessly integrates with SQLite, providing a lightweight and efficient database solution for storing journal data.
+- **Custom Capitalization Logic:** It applies custom capitalization logic to ensure proper capitalization of journal titles, handling exceptions like "of" and "the" to maintain title case format.
 
 ## Requirements
 
